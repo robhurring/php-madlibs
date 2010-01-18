@@ -7,4 +7,5 @@ Homepage:: http://blog.ubrio.us
 
 =Example
 
-* See *example.php* for an example...
+* see "example.php" for usage
+* run "php example.php" to test
