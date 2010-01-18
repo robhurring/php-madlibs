@@ -1,6 +1,7 @@
 =About
 
 Simple content generator for PHP using a madlibs like approach. You create templates with portions of your code to be dynamically generated out of your dictionary.yml file.
+I had some fun with this and added support for Google translations and such. It was a neat project.
 
 Author:: Rob Hurring
 Homepage:: http://blog.ubrio.us
