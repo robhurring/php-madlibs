@@ -4,6 +4,7 @@
 require_once('config/environment.php');
 
 // Render test. If this passes, we are good to go :)
+// "test-basic" is a template located at ./templates/test-basic
 $_ = render_template('test-basic');
 print_r($_);
 
@@ -19,6 +20,7 @@ print_r($RenderFlags);
 // 
 if(get_render_flag('needs_disclaimer'))
 {
+  // If a '{!needs_disclaimer}' flag is found, render a disclaimer
   echo "\nKey Found: NEEDS DISCLAIMER\n";
   echo render_template('snippets.disclaimer')."\n";
 }
