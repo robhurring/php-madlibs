@@ -1,0 +1,10 @@
+=About
+
+Simple content generator for PHP using a madlibs like approach. You create templates with portions of your code to be dynamically generated out of your dictionary.yml file.
+
+Author:: Rob Hurring
+Homepage:: http://blog.ubrio.us
+
+=Example
+
+* See *example.php* for an example...
