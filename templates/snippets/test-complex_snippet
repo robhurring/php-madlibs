@@ -1,0 +1,6 @@
+I am a snippet which does some things like:
+  
+  * Includes another snippet: {<snippets.test-snippet}
+  * Translates some text: {trans:phrases.greetings.hello_world-en,en,es}
+
+{!needs_disclaimer,set_in_complex_snippet}

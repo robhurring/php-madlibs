@@ -1,0 +1,46 @@
+__START__
+
+=Basic Inclusions=
+
+  Verbs:
+    Random:   {verbs} 
+    Static:   {verbs.0}
+  Nouns:      {nouns}
+  Adjectives: {adjectives}
+
+=Complex Keypaths=
+
+  Nested:     {aops.personal_injury.verbs}
+              {aops.personal_injury.adjectives}
+  Direct-Key:   {phrases.greetings.hello_world-en}
+  Direct-Index: {phrases.closings.1}
+  Randomized:   {phrases.closings}
+  
+=Includes=
+
+  Using "<":    {<snippets.test-snippet}
+  Using "incl:" {incl:snippets.test-snippet}
+
+  Complex
+  -------
+  [{<snippets.test-complex_snippet}]
+  
+=Translations=
+
+  "{phrases.greetings.hello_world-en}":
+      -> ES:  {trans:phrases.greetings.hello_world-en,en,es}
+      -> EN:  {trans:phrases.greetings.hello_world-es,es,en}
+
+=Comments=
+
+  Spacing:    { spaced_out }
+  With Hash:  {#comment}
+  Nothing:    {}
+
+=Render Flags=
+  
+  Should appear blank as they are stripped and put into $RenderFlags array().
+  Render Flags start with a "!"
+
+__END__
+{!multiple,flags,on one line,but should come last}

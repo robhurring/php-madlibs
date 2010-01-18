@@ -1,0 +1,38 @@
+# Key path: *
+nouns:
+  - noun1
+  - noun2
+  - noun3
+
+adjectives:
+  - adj1
+  - adj2
+  - adj3
+  
+verbs:
+  - verb1
+  - verb2
+  - verb3
+  
+aops:
+  # Key path: aops.personal_injury.*
+  personal_injury:
+    verbs:
+      - piv1
+      - piv2
+    adjectives:
+      - pia1
+      - pia2
+      
+phrases:
+	greetings:
+	  hello_world-en: "Hello World!"
+	  hello_world-es: "Hola Mundo!"
+		short: "Hello, how are you today?"
+		future: "Hello from the world of tomorrow!"
+	closings:
+	  - "Goodbye from the world of tomorrow!"
+	  - "Array of closing items"
+	  - "Which can be randomized using phrases.closings"
+	  - "Or plucked using phrases.closings.0"
+	  - "where 0 is the array index"
